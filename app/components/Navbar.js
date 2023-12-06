@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link href="/">
           <Image src="/2.png" width="200" height="300" alt="/" />
         </Link>
-        <section className="text-[#535353] font-bold text-2xl">
+        <section className="text-white font-bold text-2xl">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b ">Home</li>
