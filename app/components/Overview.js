@@ -2,7 +2,7 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <section className="h-screen w-screen bg-[#f0f0f0]">
+    <section className="h-screen w-full bg-[#f0f0f0]">
       <section className="absolute flex flex-col justify-center h-full m-auto px-12 py-32 text-center ">
         <h1 className="text-4xl font-bold mb-6">DO YOURSELF A FAVOR</h1>
 
