@@ -18,22 +18,21 @@ const Navbar = () => {
         </Link>
         <section className="text-white font-bold text-2xl">
           <ul className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b ">Home</li>
-            </Link>
-            <Link href="/about">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                About Us
-              </li>
-            </Link>
-            <Link href="/services">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Services
-              </li>
-            </Link>
-            <Link href="/team">
-              <li className="ml-10 text-sm uppercase hover:border-b">Teams</li>
-            </Link>
+            <li className="ml-10 text-sm uppercase hover:border-b ">
+              <Link href="/">Home</Link>
+            </li>
+
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/about">About Us</Link>
+            </li>
+
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/services">Services</Link>
+            </li>
+
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/team">Teams</Link>
+            </li>
           </ul>
           <section onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
